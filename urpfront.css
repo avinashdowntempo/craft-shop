@@ -1,0 +1,75 @@
+urpfront.css
+
+div{
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+	
+	
+}
+img
+{
+	border-radius: 100%;
+	opacity: 51%;
+	display: block;
+	margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+img
+{
+	-webkit-transition: -webkit-transform 3s ease;
+          transition:         transform 3s ease;
+}
+img:hover {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+p
+{
+	font-family: "alex brush";
+	font-size: 35px;
+	text-align: right;
+	font-weight: 100px;
+	
+}
+span
+{
+	/*font-family:"alex brush" ;*/
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 100px;
+	font-size: 20px;
+	font-variant: normal;
+
+}
+.sign_in{
+	text-decoration: none;
+
+}
+.sign_in:link, .sign_in:visited {
+  background-color: rgb(191, 191, 191,0);
+  color: rgb(255, 128, 128);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   border-radius: 100%;
+
+}
+
+.sign_in:hover, .sign_in:active {
+  background-color: rgb(255, 153, 153);
+  color: white;
+  border-radius: 100%;
+}
+body
+{
+	margin-right: 50px;
+	margin-left: 100px;
+	background-color: pink;
+	/* background-image: linear-gradient(to right, rgb(255, 128, 128,1),rgb(255, 128, 128,0));*/
+	background-image: linear-gradient(to right, rgb(255,128,128,1),rgb(230,230,230,1));
+	 }
+	

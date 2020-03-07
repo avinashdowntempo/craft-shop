@@ -1,0 +1,78 @@
+
+body
+{
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: pink;
+	/* background-image: linear-gradient(to right, rgb(255, 128, 128,1),rgb(255, 128, 128,0));*/
+	background-image: linear-gradient(to right, rgb(255,128,128,1),rgb(230,230,230,1));
+	 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(230,230,230,0.5);
+  background-image: linear-gradient(to right, rgb(255,128,128,0),rgb(255,128,128,1));
+
+}
+
+.right {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 153, 153);
+}
+
+.urp
+{
+	font-family: "alex brush";
+	font-size: 35px;
+	text-align: right;
+	font-weight: 100px;
+	
+}
+.content
+{
+	font-family: "alex brush";
+	font-weight: 100px;
+	font-size: 25px;
+	
+}
+legend
+{
+	font-family: "Clicker Script";
+	font-size: 35px;
+	font-weight:normal;
+	/*color: rgb(204, 0, 82);*/
+	color: rgb(179, 0, 71);
+}
+.quote
+{
+	align-content: left;
+	color: rgb(179, 0, 71);
+font-size: 25px;
+}
+em
+{
+	color: rgb(179, 0, 71);
+	font-weight: normal;
+}
+#logo { 
+  float: left;
+  display: inline-block;
+  height: 4%;
+  width: 4%;
+  border-radius: 100%;
+  opacity: 51%;
+}
